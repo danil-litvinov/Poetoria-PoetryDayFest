@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+  "
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.min.css?v=pre_alpha_0.1" />
+    <link rel="icon" type="image/svg" href="images/favicon.svg" />
+    <title>ДеньПоэзии Фест</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header__top">
+          <a href="" class="header__logo">
+            <img src="images/logos/logo.svg" alt="ДеньПоэзии Фест" />
+          </a>
+          <button class="header__button button__buy-ticket">
+            Купить билет
+          </button>
+        </div>
+        <div class="header__body">
+          <div class="container">
+            <div class="header__body-iner">
+              <div class="header__content">
+                <div class="heading__box">
+                  <img
+                    src="/images/logos/poetoria.svg"
+                    alt="Поэтория логотип"
+                    class="poetoria__logo"
+                  />
+                  <h1 class="heading__title title">
+                    День<span>Поэзии<br />Фест</span>
+                  </h1>
+                  <p class="heading__date">21–30 марта</p>
+                </div>
+                <p class="heading__subtitle">
+                  изменим твое <br />
+                  представление о поэзии
+                </p>
+                <a href="#about" class="heading__arrow-btn">
+                  <img
+                    src="images/icons/arrow-down.svg"
+                    alt=""
+                    class="header__arrow-down"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <video autoplay loop muted class="header__bgvideo" id="bgvideo">
+          <source src="images/bg_video.mp4" type="video/mp4"></source>
+        </video>
+      </header>
+      <main>
+        <div class="main__about about" id="about">
+          <div class="container">
+            <div class="about__inner">
+              <h2 class="about__title title">О нас</h2>
+            <p class="about__text">
+              <span>ДеньПоэзии Фест</span> — городской фестиваль поэзии. <br><br>С 2018 года мы
+              объединяем творческих людей и открываем новые имена. <br><br><span>Наша миссия</span> —
+              показать поэзию с новой точки зрения. События фестиваля охватывают
+              4 локации в Воронеже.
+            </p>
+            <section
+              class="splide splide__about"
+              aria-label="Basic Structure Example"
+              id="second-slider"
+            >
+              <div class="splide__track about__track">
+                <ul class="splide__list about__list">
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about1.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about2.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about3.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about4.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about5.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about6.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about7.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about8.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                  <li class="splide__slide about__slide">
+                    <img
+                      src="images/events/about9.jpg"
+                      alt="Фотография фестиваля"
+                      class="about__image"
+                    />
+                  </li>
+                </ul>
+                <ul class="splide__pagination splide__pagination--about"></ul>
+              </div>
+            </section>
+            <ul class="about__pluses-items">
+              <li class="about__pluses-item">
+                <div class="about__pluses-num">1000 <span>+</span></div>
+                <div class="about__pluses-text">Участников</div>
+              </li>
+              <li class="about__pluses-item">
+                <div class="about__pluses-num">15 <span>+</span></div>
+                <div class="about__pluses-text">Событий</div>
+              </li>
+              <li class="about__pluses-item">
+                <div class="about__pluses-num">34 <span>+</span></div>
+                <div class="about__pluses-text">Спикера</div>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main__partners partners" id="partners">
+          <section
+            class="splide splide__partners"
+            aria-label="Splide Basic HTML Example"
+          >
+            <div class="splide__track splide__track-partners">
+              <ul class="splide__list">
+                <li class="splide__slide splide__slide-partners">
+                  <img
+                    src="images/partners/da 1.png"
+                    alt=""
+                    class="partners__img"
+                  />
+                </li>
+                <li class="splide__slide splide__slide-partners">
+                  <img
+                    src="images/partners/eventuki 2.png"
+                    alt=""
+                    class="partners__img"
+                  />
+                </li>
+                <li class="splide__slide splide__slide-partners">
+                  <img
+                    src="images/partners/matreshka_cafe 2.png"
+                    alt=""
+                    class="partners__img"
+                  />
+                </li>
+                <li class="splide__slide splide__slide-partners">
+                  <img
+                    src="images/partners/omc 1.png"
+                    alt=""
+                    class="partners__img"
+                  />
+                </li>
+                <li class="splide__slide splide__slide-partners">
+                  <img
+                    src="images/partners/matryoshka 1.png"
+                    alt=""
+                    class="partners__img"
+                  />
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="main__events events">
+          <div class="container">
+            <div class="events-inner">
+              <h2 class="events__title title">Мероприятия</h2>
+              <div class="events__date-box">
+                <div class="events__month">МАРТ:</div>
+                <ul class="events__date-items">
+                  <li class="events__date-item">
+                    <button
+                      class="events__date-btn events__date-btn--active"
+                      type="button"
+                      data-filter=".events__date-21"
+                    >
+                      21
+                    </button>
+                  </li>
+                  <li class="events__date-item">
+                    <button
+                      class="events__date-btn"
+                      type="button"
+                      data-filter=".events__date-22"
+                    >
+                      22
+                    </button>
+                  </li>
+                  <li class="events__date-item">
+                    <button
+                      class="events__date-btn"
+                      type="button"
+                      data-filter=".events__date-23"
+                    >
+                      23
+                    </button>
+                  </li>
+                  <li class="events__date-item">
+                    <button
+                      class="events__date-btn"
+                      type="button"
+                      data-filter=".events__date-29"
+                    >
+                      29
+                    </button>
+                  </li>
+                  <li class="events__date-item">
+                    <button
+                      class="events__date-btn"
+                      type="button"
+                      data-filter=".events__date-30"
+                    >
+                      30
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <ul class="events__event-items">
+                <li
+                  class="mix events__event-item events__date-21"
+                  data-order="1"
+                >
+                  <h4 class="event__header">
+                    Дискуссия «Проблемы и перспективы развития современной поэзии»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="16:00"
+                        >16:00-17:00</time
+                      >
+                      <div class="event__address">
+                        Шоу пространство Eventuki
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-21"
+                  data-order="2"
+                >
+                  <h4 class="event__header">
+                    Открытый микрофон «Сохрани мою речь навсегда»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="18:00"
+                        >18:00-19:30</time
+                      >
+                      <div class="event__address">
+                        Шоу пространство Eventuki
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-22"
+                  data-order="3"
+                >
+                  <h4 class="event__header">
+                    Кинопоказ и обсуждение фильма «Паттерсон»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="19:00"
+                        >19:00-22:00</time
+                      >
+                      <div class="event__address">
+                        Центр культуры и искусства «Прогресс» Черный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-23"
+                  data-order="4"
+                >
+                  <h4 class="event__header">
+                    Викторина «Нескучная игра: Турфирма»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="14:00"
+                        >14:00-15:30</time
+                      >
+                      <div class="event__address">
+                        Кафе «Матрешка»
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-23"
+                  data-order="5"
+                >
+                  <h4 class="event__header">
+                    Лекция «Культурный бизнес, или Как привлечь деньги на культурный стартап?»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="14:00"
+                        >14:00-15:00</time
+                      >
+                      <div class="event__address">
+                        Дом архитектора. Лекционный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-23"
+                  data-order="6"
+                >
+                  <h4 class="event__header">
+                    Лекция «Как продавать свое творчество и продвигать себя»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="15:30"
+                        >15:30-16:30</time
+                      >
+                      <div class="event__address">
+                        Дом архитектора. Лекционный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-23"
+                  data-order="7"
+                >
+                  <h4 class="event__header">
+                    Мастер-класс «Сила слова, или Искусство публичных выступлений» 
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="17:00"
+                        >17:00-18:30</time
+                      >
+                      <div class="event__address">
+                        Мастер-класс «Сила слова, или Искусство публичных выступлений»
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-29"
+                  data-order="8"
+                >
+                  <h4 class="event__header">
+                    Спектакль «Фиаско Пушкина» Премьера
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="19:00"
+                        >19:00-21:00</time
+                      >
+                      <div class="event__address">
+                        Шоу пространство Eventuki
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-29"
+                  data-order="9"
+                >
+                  <h4 class="event__header">
+                    Шоу «Генпрогон»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="21:30"
+                        >21:30-23:00</time
+                      >
+                      <div class="event__address">
+                        Шоу пространство Eventuki
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="10"
+                >
+                  <h4 class="event__header">
+                    Лекция и мастер-класс «Нейросети в искусстве»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="14:00"
+                        >14:00-14:45</time
+                      >
+                      <div class="event__address">
+                        Дом архитектора. Лекционный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="11"
+                >
+                  <h4 class="event__header">
+                    Лекция «Природа творчества»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="15:00"
+                        >15:00-15:45</time
+                      >
+                      <div class="event__address">
+                        Дом архитектора. Лекционный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="12"
+                >
+                  <h4 class="event__header">
+                    Лекция «Восприятие поэзии в текстах песен» или лекция об искусстве
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="16:00"
+                        >16:00-16:45</time
+                      >
+                      <div class="event__address">
+                        Дом архитектора. Лекционный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="13"
+                >
+                  <h4 class="event__header">
+                    Мастер-класс «Кастомизация одежды»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="16:00"
+                        >16:00-17:30</time
+                      >
+                      <div class="event__address">
+                        Кафе «Матрешка» Переговорная 
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="14"
+                >
+                  <h4 class="event__header">
+                    Вечер современной поэзии «День поэзии» Премьера
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="18:00"
+                        >18:00-19:30</time
+                      >
+                      <div class="event__address">
+                        Центр креативных индустрий «Матрешка» Концертный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="15"
+                >
+                  <h4 class="event__header">
+                    Музыкальный концерт «tomkosmosss»
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="20:00"
+                        >20:00-21:00</time
+                      >
+                      <div class="event__address">
+                        Центр креативных индустрий «Матрешка» Концертный зал
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+                <li
+                  class="mix events__event-item events__date-30"
+                  data-order="16"
+                >
+                  <h4 class="event__header">
+                    After Party с DJ Set
+                  </h4>
+                  <div class="events__event-inner">
+                    <div class="event__info">
+                      <time class="event__time" datetime="22:00"
+                        >22:00-04:00</time
+                      >
+                      <div class="event__address">
+                        ?
+                      </div>
+                    </div>
+                    <button class="event__btn-details">Подробнее</button>
+                  </div>
+                </li>
+              </ul>
+              <button
+                class="events__buy-tickets button__buy-ticket button__buy-ticket--big"
+              >
+                Купить билет
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="main__feedback feedback" id="feedback">
+          <div class="container">
+            <div class="feedback-inner">
+              <div class="feedback__title-box">
+                <p class="feedback__subtitle">Отзывы</p>
+                <h2 class="feedback__title title">
+                  Фестиваль <span>2023</span>
+                </h2>
+              </div>
+              <section
+                class="splide splide__feedback"
+                aria-label="Splide Feedback"
+                id="slider-feedback"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list feedback__items">
+                    <li class="splide__slide feedback__item-wrapper">
+                      <div class="feedback__item-inner">
+                        <blockquote class="feedback__quote">
+                          Фестиваль превзошел все мои ожидания! Атмосфера была
+                          просто незабываемой, а программа мероприятий оказалась
+                          очень разнообразной. Оформление и декорации были
+                          просто потрясающими, а музыка просто захватывала дух.
+                          Я настоятельно рекомендую этот фестиваль всем, кто
+                          хочет окунуться в мир искусства, развлечений и
+                          незабываемых впечатлений!
+                        </blockquote>
+                        <div class="feedback__user">
+                          <div class="feedback__user-avatar">
+                            <img
+                              src="images/user/user_1.jpg"
+                              alt="Фотография участника"
+                            />
+                          </div>
+                          <div class="feedback__user-about">
+                            <div class="feedback__user-name">Юлия</div>
+                            <div class="feedback__user-position">Поэт</div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide feedback__item-wrapper">
+                      <div class="feedback__item-inner">
+                        <blockquote class="feedback__quote">
+                          Фестиваль превзошел все мои ожидания! Атмосфера была
+                          просто незабываемой, а программа мероприятий оказалась
+                          очень разнообразной. Оформление и декорации были
+                          просто потрясающими, а музыка просто захватывала дух.
+                          Я настоятельно рекомендую этот фестиваль всем, кто
+                          хочет окунуться в мир искусства, развлечений и
+                          незабываемых впечатлений!
+                        </blockquote>
+                        <div class="feedback__user">
+                          <div class="feedback__user-avatar">
+                            <img
+                              src="images/user/user_1.jpg"
+                              alt="Фотография участника"
+                            />
+                          </div>
+                          <div class="feedback__user-about">
+                            <div class="feedback__user-name">Юлия</div>
+                            <div class="feedback__user-position">Поэт</div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide feedback__item-wrapper">
+                      <div class="feedback__item-inner">
+                        <blockquote class="feedback__quote">
+                          Фестиваль превзошел все мои ожидания! Атмосфера была
+                          просто незабываемой, а программа мероприятий оказалась
+                          очень разнообразной. Оформление и декорации были
+                          просто потрясающими, а музыка просто захватывала дух.
+                          Я настоятельно рекомендую этот фестиваль всем, кто
+                          хочет окунуться в мир искусства, развлечений и
+                          незабываемых впечатлений!
+                        </blockquote>
+                        <div class="feedback__user">
+                          <div class="feedback__user-avatar">
+                            <img
+                              src="images/user/user_1.jpg"
+                              alt="Фотография участника"
+                            />
+                          </div>
+                          <div class="feedback__user-about">
+                            <div class="feedback__user-name">Юлия</div>
+                            <div class="feedback__user-position">Поэт</div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="main__faq faq">
+          <div class="container">
+            <div class="faq-inner">
+              <div class="faq__title title">Faq</div>
+              <ul class="faq__questions">
+                <hr />
+                <li class="faq__question">
+                  <a href="#" class="faq__question-link">
+                    <div class="faq__header-box">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="white"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.8254 5.39683L2.7381 19.5238C2.42063 19.8413 2.04339 20 1.60635 20C1.17037 20 0.79365 19.8413 0.47619 19.5238C0.15873 19.2063 0 18.8291 0 18.3921C0 17.9561 0.15873 17.5794 0.47619 17.2619L14.6032 3.1746L2.53968 3.1746C2.08995 3.1746 1.7127 3.02275 1.40794 2.71905C1.10423 2.41429 0.952381 2.03704 0.952381 1.5873C0.952381 1.13757 1.10423 0.760318 1.40794 0.455556C1.7127 0.151852 2.08995 0 2.53968 0L18.4127 0C18.8624 0 19.2392 0.151852 19.5429 0.455556C19.8476 0.760318 20 1.13757 20 1.5873V17.4603C20 17.9101 19.8476 18.2868 19.5429 18.5905C19.2392 18.8952 18.8624 19.0476 18.4127 19.0476C17.963 19.0476 17.5862 18.8952 17.2825 18.5905C16.9778 18.2868 16.8254 17.9101 16.8254 17.4603V5.39683Z"
+                        />
+                      </svg>
+                      <div class="faq__question-head">Как оплатить билет?</div>
+                    </div>
+                    <p class="faq__question-text">
+                      Оплатить билет можно только онлайн при помощи карты.
+                      Оплатить билет при встрече не получится.
+                    </p>
+                  </a>
+                </li>
+                <hr />
+                <li class="faq__question">
+                  <a href="#" class="faq__question-link">
+                    <div class="faq__header-box">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="white"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.8254 5.39683L2.7381 19.5238C2.42063 19.8413 2.04339 20 1.60635 20C1.17037 20 0.79365 19.8413 0.47619 19.5238C0.15873 19.2063 0 18.8291 0 18.3921C0 17.9561 0.15873 17.5794 0.47619 17.2619L14.6032 3.1746L2.53968 3.1746C2.08995 3.1746 1.7127 3.02275 1.40794 2.71905C1.10423 2.41429 0.952381 2.03704 0.952381 1.5873C0.952381 1.13757 1.10423 0.760318 1.40794 0.455556C1.7127 0.151852 2.08995 0 2.53968 0L18.4127 0C18.8624 0 19.2392 0.151852 19.5429 0.455556C19.8476 0.760318 20 1.13757 20 1.5873V17.4603C20 17.9101 19.8476 18.2868 19.5429 18.5905C19.2392 18.8952 18.8624 19.0476 18.4127 19.0476C17.963 19.0476 17.5862 18.8952 17.2825 18.5905C16.9778 18.2868 16.8254 17.9101 16.8254 17.4603V5.39683Z"
+                        />
+                      </svg>
+                      <div class="faq__question-head">Кто за вами стоит?</div>
+                    </div>
+                    <p class="faq__question-text">
+                      Мы молодая команда — люди, которые любят поэзию и вкладывают в поэтический движ своё время и деньги.
+                    </p>
+                  </a>
+                </li>
+                <hr />
+                <li class="faq__question">
+                  <a href="#" class="faq__question-link">
+                    <div class="faq__header-box">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="white"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.8254 5.39683L2.7381 19.5238C2.42063 19.8413 2.04339 20 1.60635 20C1.17037 20 0.79365 19.8413 0.47619 19.5238C0.15873 19.2063 0 18.8291 0 18.3921C0 17.9561 0.15873 17.5794 0.47619 17.2619L14.6032 3.1746L2.53968 3.1746C2.08995 3.1746 1.7127 3.02275 1.40794 2.71905C1.10423 2.41429 0.952381 2.03704 0.952381 1.5873C0.952381 1.13757 1.10423 0.760318 1.40794 0.455556C1.7127 0.151852 2.08995 0 2.53968 0L18.4127 0C18.8624 0 19.2392 0.151852 19.5429 0.455556C19.8476 0.760318 20 1.13757 20 1.5873V17.4603C20 17.9101 19.8476 18.2868 19.5429 18.5905C19.2392 18.8952 18.8624 19.0476 18.4127 19.0476C17.963 19.0476 17.5862 18.8952 17.2825 18.5905C16.9778 18.2868 16.8254 17.9101 16.8254 17.4603V5.39683Z"
+                        />
+                      </svg>
+                      <div class="faq__question-head">Как поддержать фестиваль?</div>
+                    </div>
+                    <p class="faq__question-text">
+                      Стань благотворителем и поддерживай фест рублём или присоединяйся к команде волонтеров и поддерживай делом. Так мы сможем продолжить реализацию проекта в 2025 году.
+                    </p>
+                  </a>
+                </li>
+                <hr />
+                <li class="faq__question">
+                  <a href="#" class="faq__question-link">
+                    <div class="faq__header-box">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="white"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.8254 5.39683L2.7381 19.5238C2.42063 19.8413 2.04339 20 1.60635 20C1.17037 20 0.79365 19.8413 0.47619 19.5238C0.15873 19.2063 0 18.8291 0 18.3921C0 17.9561 0.15873 17.5794 0.47619 17.2619L14.6032 3.1746L2.53968 3.1746C2.08995 3.1746 1.7127 3.02275 1.40794 2.71905C1.10423 2.41429 0.952381 2.03704 0.952381 1.5873C0.952381 1.13757 1.10423 0.760318 1.40794 0.455556C1.7127 0.151852 2.08995 0 2.53968 0L18.4127 0C18.8624 0 19.2392 0.151852 19.5429 0.455556C19.8476 0.760318 20 1.13757 20 1.5873V17.4603C20 17.9101 19.8476 18.2868 19.5429 18.5905C19.2392 18.8952 18.8624 19.0476 18.4127 19.0476C17.963 19.0476 17.5862 18.8952 17.2825 18.5905C16.9778 18.2868 16.8254 17.9101 16.8254 17.4603V5.39683Z"
+                        />
+                      </svg>
+                      <div class="faq__question-head">Как попасть на бесплатные события?</div>
+                    </div>
+                    <p class="faq__question-text">
+                      Перейти во вкладку «Билеты».
+                    </p>
+                  </a>
+                </li>
+                <hr />
+                <li class="faq__question">
+                  <a href="#" class="faq__question-link">
+                    <div class="faq__header-box">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="white"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16.8254 5.39683L2.7381 19.5238C2.42063 19.8413 2.04339 20 1.60635 20C1.17037 20 0.79365 19.8413 0.47619 19.5238C0.15873 19.2063 0 18.8291 0 18.3921C0 17.9561 0.15873 17.5794 0.47619 17.2619L14.6032 3.1746L2.53968 3.1746C2.08995 3.1746 1.7127 3.02275 1.40794 2.71905C1.10423 2.41429 0.952381 2.03704 0.952381 1.5873C0.952381 1.13757 1.10423 0.760318 1.40794 0.455556C1.7127 0.151852 2.08995 0 2.53968 0L18.4127 0C18.8624 0 19.2392 0.151852 19.5429 0.455556C19.8476 0.760318 20 1.13757 20 1.5873V17.4603C20 17.9101 19.8476 18.2868 19.5429 18.5905C19.2392 18.8952 18.8624 19.0476 18.4127 19.0476C17.963 19.0476 17.5862 18.8952 17.2825 18.5905C16.9778 18.2868 16.8254 17.9101 16.8254 17.4603V5.39683Z"
+                        />
+                      </svg>
+                      <div class="faq__question-head">Фестиваль некоммерческий, почему часть мероприятий платная?</div>
+                    </div>
+                    <p class="faq__question-text">
+                      Команда фестиваля работает на волонтёрских началах. Платные мероприятия покрывают только часть расходов фестиваля.
+                    </p>
+                  </a>
+                </li>
+                <hr />
+                <li class="faq__contacts">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.6032 16.8254L0.47619 2.7381C0.158731 2.42063 -2.38419e-06 2.04339 -2.38419e-06 1.60635C-2.38419e-06 1.17037 0.158731 0.79365 0.47619 0.47619C0.793651 0.15873 1.1709 0 1.60793 0C2.04391 0 2.42063 0.15873 2.73809 0.47619L16.8254 14.6032L16.8254 2.53968C16.8254 2.08995 16.9772 1.7127 17.281 1.40794C17.5857 1.10423 17.963 0.952381 18.4127 0.952381C18.8624 0.952381 19.2397 1.10423 19.5444 1.40794C19.8481 1.7127 20 2.08995 20 2.53968L20 18.4127C20 18.8624 19.8481 19.2392 19.5444 19.5429C19.2397 19.8476 18.8624 20 18.4127 20L2.53968 20C2.08995 20 1.71323 19.8476 1.40952 19.5429C1.10476 19.2392 0.952379 18.8624 0.952379 18.4127C0.952379 17.963 1.10476 17.5862 1.40952 17.2825C1.71323 16.9778 2.08995 16.8254 2.53968 16.8254L14.6032 16.8254Z"
+                      fill="#00FFB2"
+                    />
+                  </svg>
+                  <div class="faq__question-head">остались вопросы?</div>
+                  <a href="mailto:team@poetoria.ru" class="faq__contacts-mail"
+                    >Почта</a
+                  >
+                  <a href="https://t.me/idany_ok" class="faq__contacts-telegram"
+                    >Телеграм</a
+                  >
+                </li>
+                <hr />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <h2 class="footer__header">
+            <span>Мир</span> меняют <span>культура</span>, <span>любовь</span> и
+            <span>вера</span> в себя!
+          </h2>
+          <button
+            class="footer__btn button__buy-ticket button__buy-ticket--big"
+          >
+            Купить билет
+          </button>
+          <div class="footer__nav">
+            <a href="#header" class="footer__logo">
+              <img src="/images/logos/logo.svg" alt="" />
+            </a>
+            <ul class="footer__sotials-box">
+              <li class="footer__sotials-item">
+                <a
+                  href="https://vk.com/poetrydayfest"
+                  class="footer__sotial-link"
+                >
+                  <img src="images/icons/vk-icon.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__sotials-item">
+                <a
+                  href="https://instagram.com/poetrydayfest"
+                  class="footer__sotial-link"
+                >
+                  <img src="images/icons/inst-icon.svg" alt="" />
+                </a>
+              </li>
+              <li class="footer__sotials-item">
+                <a
+                  href="https://t.me/poetrydayfest"
+                  class="footer__sotial-link"
+                >
+                  <img src="images/icons/tg-icon.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+            <a href="#header" class="footer__btn-up">
+              <svg
+                width="22"
+                height="21"
+                viewBox="0 0 22 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.1667 5.66667L3.375 20.5C3.04167 20.8333 2.64556 21 2.18667 21C1.72889 21 1.33333 20.8333 1 20.5C0.666666 20.1667 0.5 19.7706 0.5 19.3117C0.5 18.8539 0.666666 18.4583 1 18.125L15.8333 3.33333H3.16667C2.69444 3.33333 2.29833 3.17389 1.97833 2.855C1.65944 2.535 1.5 2.13889 1.5 1.66667C1.5 1.19444 1.65944 0.798334 1.97833 0.478334C2.29833 0.159445 2.69444 0 3.16667 0H19.8333C20.3056 0 20.7011 0.159445 21.02 0.478334C21.34 0.798334 21.5 1.19444 21.5 1.66667V18.3333C21.5 18.8056 21.34 19.2011 21.02 19.52C20.7011 19.84 20.3056 20 19.8333 20C19.3611 20 18.9656 19.84 18.6467 19.52C18.3267 19.2011 18.1667 18.8056 18.1667 18.3333V5.66667Z"
+                  fill="black"
+                />
+              </svg>
+
+              Наверх</a
+            >
+          </div>
+          <a href="https://nacodim.ru" class="footer__development-link"
+            >Сайт сделан: @idany_ok</a
+          >
+          <p class="footer__copypaste">
+            © 2024 АНО «Поэтория»<br />
+            ИНН 3666269401 ОГРН 1233600022370<br />
+            Все права защищены
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <script src="path-to-the-script/splide-extension-auto-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/mixitup.min.js"></script>
+</html>
